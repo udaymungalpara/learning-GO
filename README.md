@@ -1,2 +1,2 @@
 # learning-GO
-# this is repo of learning Golang
+# This repo is learning Golang.
