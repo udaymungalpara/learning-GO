@@ -10,13 +10,14 @@ func main()  {
 	fmt.Println("Slices on the GOlang: ")
 
 	var bois = []string{"Uday","Raj","Rahul"}
+
 	fmt.Printf("The type is :%T\n",bois)
 	
 	bois = append(bois, "sujal","Nikunj")
 	
 	fmt.Println(bois)
 
-	bois = append(bois[1:])
+	bois = append(bois[2:5])
 	fmt.Println(bois)
 
 	Numbers := make([]int, 5)
